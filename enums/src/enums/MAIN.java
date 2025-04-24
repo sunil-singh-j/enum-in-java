@@ -43,5 +43,13 @@ public class MAIN {
 		default: System.out.println("something went wrong");
 		
 		}
+		
+		Laptop l=Laptop.MACKBOOK;
+		System.out.println("the price of "+l+"  is  "+l.getPrice());
+		Laptop ls[]=Laptop.values();
+		for(Laptop li:ls) {
+			System.out.println("the price of "+li+"  is  "+li.getPrice());
+			
+		}
 	}
 }
